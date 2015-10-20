@@ -1,6 +1,6 @@
 FitText jQuery Plugin
 ==============
-The purpose of this plugin is to ìfitî the input text into a div, so it will fit in one line, within a divís 50px height and width while using the maximum possible integer font-size. 
+The purpose of this plugin is to ‚Äúfit‚Äù the input text into a div, so it will fit in one line, within a div‚Äôs 50px height and width while using the maximum possible integer font-size. 
 
 The fittext.js file includes the plugin.
 
@@ -19,11 +19,9 @@ Suggestions for Improvements
 
 3. The plugin maximum font size is 39px. An improved version should support bigger font-sizes.
 
-For the implementation of 2 and 3 the plugin could accept div height in the plugins' options, and calculate maximum font-size relatively to the div's height on the fly.
-
 4. When the text is very big comparing to the div's width, the unused space inside the div is big ("right-padding"). A "hack" could be the use of decimal font sizes.
 
 5. Due to the hetereogenity of devices in our days, there was little capability of testing the plugin on different devices, screen sizes, browsers etc. The plugin is tested in Chrome, Opera, Mozilla as well as simulated on those browsers' consoles.More testing is needed.
 
-
+For the implementation of 2 and 3 the plugin could accept div height in the plugins' options, and calculate maximum font-size relatively to the div's height on the fly.
  
