@@ -21,6 +21,7 @@ body {
 	height: 50px;
 	margin-top: 40px;
 	position: relative;
+	width:640px;
 }
 
 .outputText {

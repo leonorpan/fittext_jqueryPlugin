@@ -35,5 +35,6 @@ $( document ).ready(function() {
 		$(".inputText").val(localStorage.getItem("text"));
 	}
 	$(".hiddenElement").removeClass("hiddenElement");
+	localStorage.clear();
 });
 
