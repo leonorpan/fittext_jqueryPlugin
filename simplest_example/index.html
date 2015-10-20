@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<!-- You have to add jQuery for the plugin to work-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>Simple FitText Example</title>
+	<!-- Simple css that adds a black border and dimensions on the div -->
+	<style>
+	div#outputDiv{
+		border: solid 1px #000;
+		height: 50px;
+		width: 150px;
+	}
+	</style>
+  </head>
+  <body>
+	<!-- The div where the text will fit in. The div should have an ID -->
+	<div id="outputDiv">
+		<!-- The text you want to fit should be surrounded by span tags. Don't forget the nowrap value-otherwise the text will break into multiple lines -->
+		<span style="white-space:nowrap" >I want to perfectly fit THIS text!!!!!</span>
+	</div>
+	<!-- Add the plugin - add the fittext.js file in your project directory and don't forget to enter the correct path to the file -->
+	<script src="../fittext.js"></script>
+	<script>
+		<!-- When this script is executed, the magic will happen! -->
+		$("#outputDiv").fittext();
+	</script>
+  </body>
+</html>

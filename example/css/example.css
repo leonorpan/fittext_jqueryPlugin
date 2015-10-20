@@ -1,0 +1,47 @@
+body {
+	height: 100%;
+	margin-left :150px;
+	margin-right : 150px;
+	width: 640px;;
+}
+
+.inputForm{
+	margin-top: 20px;
+	width: 640px;
+}
+
+.inputRange{
+	margin-top: 20px;
+	width: 640px;
+}
+
+
+.outputBox {
+	border: solid 1px #000;
+	height: 50px;
+	margin-top: 40px;
+	position: relative;
+}
+
+.outputText {
+	height: 50px;
+	margin: none;
+	padding:none;
+	float: left;
+	display:inline-block;
+	font-size: 39px;
+	text-shadow: none; /* Prevent inheritence from `body` */
+	white-space: nowrap;
+}
+
+.hiddenAlert{
+	display:none;
+}
+
+.warning{
+		width:640px;
+}
+
+.hiddenElement {
+	display:none;
+}
